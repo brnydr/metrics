@@ -194,7 +194,6 @@ checkboxes.forEach((checkbox) => {
   checkbox.addEventListener('change', updateTable);
 });
 
-
 let isDataSubmitted = false;
 
 document.getElementById("theForm").addEventListener("submit", function (e) {
